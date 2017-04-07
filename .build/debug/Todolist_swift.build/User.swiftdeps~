@@ -1,0 +1,546 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "User"
+provides-nominal:
+- "C14Todolist_swift4User"
+provides-member:
+- ["C14Todolist_swift4User", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- !private "??"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "Criteria"
+- "JSONConvertible"
+- "MongoDBStORM"
+- "Repository"
+- "Result"
+- "StORMRow"
+- "String"
+- "StringLiteralType"
+- "User"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "Criteria"]
+- !private ["Ps9AnyObject", "Result"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "User"]
+- !private ["Ps9AnyObject", "_collection"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "delete"]
+- !private ["Ps9AnyObject", "email"]
+- !private ["Ps9AnyObject", "error"]
+- ["Ps9AnyObject", "find"]
+- ["Ps9AnyObject", "findOne"]
+- !private ["Ps9AnyObject", "firstname"]
+- !private ["Ps9AnyObject", "getJSONValues"]
+- !private ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "jsonEncodedString"]
+- !private ["Ps9AnyObject", "lastname"]
+- !private ["Ps9AnyObject", "password"]
+- ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "results"]
+- !private ["Ps9AnyObject", "rows"]
+- !private ["Ps9AnyObject", "save"]
+- ["Ps9AnyObject", "store"]
+- ["Ps9AnyObject", "storeOne"]
+- !private ["Ps9AnyObject", "to"]
+- ["Ps9AnyObject", "update"]
+- ["Ps9AnyObject", "updateOne"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonEncodedString"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "jsonEncodedString"]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonEncodedString"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "jsonEncodedString"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonEncodedString"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "jsonEncodedString"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "jsonEncodedString"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "Criteria"]
+- !private ["P10PerfectLib15JSONConvertible", "Result"]
+- !private ["P10PerfectLib15JSONConvertible", "String"]
+- !private ["P10PerfectLib15JSONConvertible", "User"]
+- !private ["P10PerfectLib15JSONConvertible", "_collection"]
+- !private ["P10PerfectLib15JSONConvertible", "append"]
+- !private ["P10PerfectLib15JSONConvertible", "count"]
+- !private ["P10PerfectLib15JSONConvertible", "delete"]
+- !private ["P10PerfectLib15JSONConvertible", "email"]
+- ["P10PerfectLib15JSONConvertible", "find"]
+- ["P10PerfectLib15JSONConvertible", "findOne"]
+- !private ["P10PerfectLib15JSONConvertible", "firstname"]
+- !private ["P10PerfectLib15JSONConvertible", "getJSONValues"]
+- !private ["P10PerfectLib15JSONConvertible", "id"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- ["P10PerfectLib15JSONConvertible", "jsonEncodedString"]
+- !private ["P10PerfectLib15JSONConvertible", "lastname"]
+- !private ["P10PerfectLib15JSONConvertible", "password"]
+- ["P10PerfectLib15JSONConvertible", "remove"]
+- !private ["P10PerfectLib15JSONConvertible", "results"]
+- !private ["P10PerfectLib15JSONConvertible", "save"]
+- ["P10PerfectLib15JSONConvertible", "store"]
+- ["P10PerfectLib15JSONConvertible", "storeOne"]
+- !private ["P10PerfectLib15JSONConvertible", "subscript"]
+- !private ["P10PerfectLib15JSONConvertible", "to"]
+- ["P10PerfectLib15JSONConvertible", "update"]
+- ["P10PerfectLib15JSONConvertible", "updateOne"]
+- ["P10PerfectLib15JSONConvertible", ""]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["C12MongoDBStORM12MongoDBStORM", "Criteria"]
+- ["C12MongoDBStORM12MongoDBStORM", "ModelType"]
+- ["C12MongoDBStORM12MongoDBStORM", "Result"]
+- ["C12MongoDBStORM12MongoDBStORM", "StORMRow"]
+- ["C12MongoDBStORM12MongoDBStORM", "String"]
+- ["C12MongoDBStORM12MongoDBStORM", "User"]
+- ["C12MongoDBStORM12MongoDBStORM", "Void"]
+- !private ["C12MongoDBStORM12MongoDBStORM", "_collection"]
+- !private ["C12MongoDBStORM12MongoDBStORM", "delete"]
+- ["C12MongoDBStORM12MongoDBStORM", "email"]
+- ["C12MongoDBStORM12MongoDBStORM", "find"]
+- ["C12MongoDBStORM12MongoDBStORM", "findOne"]
+- ["C12MongoDBStORM12MongoDBStORM", "firstname"]
+- ["C12MongoDBStORM12MongoDBStORM", "getJSONValues"]
+- ["C12MongoDBStORM12MongoDBStORM", "id"]
+- ["C12MongoDBStORM12MongoDBStORM", "init"]
+- ["C12MongoDBStORM12MongoDBStORM", "jsonEncodedString"]
+- ["C12MongoDBStORM12MongoDBStORM", "lastname"]
+- ["C12MongoDBStORM12MongoDBStORM", "password"]
+- ["C12MongoDBStORM12MongoDBStORM", "remove"]
+- !private ["C12MongoDBStORM12MongoDBStORM", "results"]
+- ["C12MongoDBStORM12MongoDBStORM", "rows"]
+- !private ["C12MongoDBStORM12MongoDBStORM", "save"]
+- ["C12MongoDBStORM12MongoDBStORM", "setJSONValues"]
+- ["C12MongoDBStORM12MongoDBStORM", "store"]
+- ["C12MongoDBStORM12MongoDBStORM", "storeOne"]
+- ["C12MongoDBStORM12MongoDBStORM", "to"]
+- ["C12MongoDBStORM12MongoDBStORM", "update"]
+- ["C12MongoDBStORM12MongoDBStORM", "updateOne"]
+- ["C12MongoDBStORM12MongoDBStORM", ""]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "subscript"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P14Todolist_swift10Repository", "Criteria"]
+- !private ["P14Todolist_swift10Repository", "Result"]
+- !private ["P14Todolist_swift10Repository", "String"]
+- !private ["P14Todolist_swift10Repository", "User"]
+- !private ["P14Todolist_swift10Repository", "_collection"]
+- !private ["P14Todolist_swift10Repository", "delete"]
+- !private ["P14Todolist_swift10Repository", "email"]
+- ["P14Todolist_swift10Repository", "find"]
+- ["P14Todolist_swift10Repository", "findOne"]
+- !private ["P14Todolist_swift10Repository", "firstname"]
+- !private ["P14Todolist_swift10Repository", "getJSONValues"]
+- !private ["P14Todolist_swift10Repository", "id"]
+- !private ["P14Todolist_swift10Repository", "init"]
+- ["P14Todolist_swift10Repository", "jsonEncodedString"]
+- !private ["P14Todolist_swift10Repository", "lastname"]
+- !private ["P14Todolist_swift10Repository", "password"]
+- ["P14Todolist_swift10Repository", "remove"]
+- !private ["P14Todolist_swift10Repository", "results"]
+- !private ["P14Todolist_swift10Repository", "save"]
+- ["P14Todolist_swift10Repository", "store"]
+- ["P14Todolist_swift10Repository", "storeOne"]
+- !private ["P14Todolist_swift10Repository", "to"]
+- ["P14Todolist_swift10Repository", "update"]
+- ["P14Todolist_swift10Repository", "updateOne"]
+- !private ["C14Todolist_swift6Result", "data"]
+- !private ["C14Todolist_swift6Result", "error"]
+- !private ["C14Todolist_swift6Result", "init"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "jsonEncodedString"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["C5StORM5StORM", "Criteria"]
+- ["C5StORM5StORM", "ModelType"]
+- ["C5StORM5StORM", "Result"]
+- ["C5StORM5StORM", "StORMRow"]
+- ["C5StORM5StORM", "String"]
+- ["C5StORM5StORM", "User"]
+- ["C5StORM5StORM", "Void"]
+- !private ["C5StORM5StORM", "_collection"]
+- !private ["C5StORM5StORM", "delete"]
+- ["C5StORM5StORM", "email"]
+- ["C5StORM5StORM", "find"]
+- ["C5StORM5StORM", "findOne"]
+- ["C5StORM5StORM", "firstname"]
+- ["C5StORM5StORM", "getJSONValues"]
+- ["C5StORM5StORM", "id"]
+- ["C5StORM5StORM", "init"]
+- ["C5StORM5StORM", "jsonEncodedString"]
+- ["C5StORM5StORM", "lastname"]
+- ["C5StORM5StORM", "password"]
+- ["C5StORM5StORM", "remove"]
+- !private ["C5StORM5StORM", "results"]
+- ["C5StORM5StORM", "rows"]
+- !private ["C5StORM5StORM", "save"]
+- ["C5StORM5StORM", "setJSONValues"]
+- ["C5StORM5StORM", "store"]
+- ["C5StORM5StORM", "storeOne"]
+- ["C5StORM5StORM", "to"]
+- ["C5StORM5StORM", "update"]
+- ["C5StORM5StORM", "updateOne"]
+- !private ["P5StORM13StORMProtocol", "Criteria"]
+- !private ["P5StORM13StORMProtocol", "Result"]
+- !private ["P5StORM13StORMProtocol", "String"]
+- !private ["P5StORM13StORMProtocol", "User"]
+- !private ["P5StORM13StORMProtocol", "_collection"]
+- !private ["P5StORM13StORMProtocol", "delete"]
+- !private ["P5StORM13StORMProtocol", "email"]
+- ["P5StORM13StORMProtocol", "find"]
+- ["P5StORM13StORMProtocol", "findOne"]
+- !private ["P5StORM13StORMProtocol", "firstname"]
+- !private ["P5StORM13StORMProtocol", "getJSONValues"]
+- !private ["P5StORM13StORMProtocol", "id"]
+- !private ["P5StORM13StORMProtocol", "init"]
+- ["P5StORM13StORMProtocol", "jsonEncodedString"]
+- !private ["P5StORM13StORMProtocol", "lastname"]
+- !private ["P5StORM13StORMProtocol", "password"]
+- ["P5StORM13StORMProtocol", "remove"]
+- !private ["P5StORM13StORMProtocol", "results"]
+- !private ["P5StORM13StORMProtocol", "save"]
+- ["P5StORM13StORMProtocol", "store"]
+- ["P5StORM13StORMProtocol", "storeOne"]
+- !private ["P5StORM13StORMProtocol", "to"]
+- ["P5StORM13StORMProtocol", "update"]
+- ["P5StORM13StORMProtocol", "updateOne"]
+- ["P5StORM13StORMProtocol", ""]
+- !private ["C5StORM14StORMResultSet", "rows"]
+- !private ["C5StORM8StORMRow", "data"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["C14Todolist_swift4User", "Criteria"]
+- ["C14Todolist_swift4User", "ModelType"]
+- ["C14Todolist_swift4User", "Result"]
+- ["C14Todolist_swift4User", "StORMRow"]
+- ["C14Todolist_swift4User", "String"]
+- ["C14Todolist_swift4User", "User"]
+- ["C14Todolist_swift4User", "Void"]
+- !private ["C14Todolist_swift4User", "_collection"]
+- ["C14Todolist_swift4User", "deinit"]
+- !private ["C14Todolist_swift4User", "delete"]
+- ["C14Todolist_swift4User", "email"]
+- ["C14Todolist_swift4User", "find"]
+- ["C14Todolist_swift4User", "findOne"]
+- ["C14Todolist_swift4User", "firstname"]
+- ["C14Todolist_swift4User", "getJSONValues"]
+- ["C14Todolist_swift4User", "id"]
+- ["C14Todolist_swift4User", "init"]
+- ["C14Todolist_swift4User", "jsonEncodedString"]
+- ["C14Todolist_swift4User", "lastname"]
+- ["C14Todolist_swift4User", "password"]
+- ["C14Todolist_swift4User", "remove"]
+- !private ["C14Todolist_swift4User", "results"]
+- ["C14Todolist_swift4User", "rows"]
+- !private ["C14Todolist_swift4User", "save"]
+- ["C14Todolist_swift4User", "setJSONValues"]
+- ["C14Todolist_swift4User", "store"]
+- ["C14Todolist_swift4User", "storeOne"]
+- ["C14Todolist_swift4User", "to"]
+- ["C14Todolist_swift4User", "update"]
+- ["C14Todolist_swift4User", "updateOne"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "jsonEncodedString"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "jsonEncodedString"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "jsonEncodedString"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P10PerfectLib15JSONConvertible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "C12MongoDBStORM12MongoDBStORM"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "P14Todolist_swift10Repository"
+- !private "C14Todolist_swift6Result"
+- !private "Ps8Sequence"
+- "C5StORM5StORM"
+- "P5StORM13StORMProtocol"
+- !private "C5StORM14StORMResultSet"
+- !private "C5StORM8StORMRow"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C14Todolist_swift4User"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectLib.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectNet.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectThread.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/StORM.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.swiftmodule"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-stream-tls.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-rand.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-version-functions.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-version.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-stream-socket.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-stream-gridfs.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-stream-file.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-stream-buffered.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-log.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-opcode.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-handshake.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-matcher.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-init.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-gridfs-file-page.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-error.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-client-pool.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-uri.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-ssl.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-gridfs-file-list.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-gridfs-file.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-socket.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-iovec.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-stream.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-gridfs.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-database.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-find-and-modify.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-read-concern.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-index.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-cursor.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-flags.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-collection.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-client.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-write-concern.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-bulk-operation.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-topology-description.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-config.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-read-prefs.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-server-description.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-host-list.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libmongoc-1.0/mongoc-apm.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bcon.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-writer.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-version-functions.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-version.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-value.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-utf8.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-string.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-reader.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-oid.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-memory.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-md5.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-keys.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-json.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-iter.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-error.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-decimal128.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-clock.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-endian.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-types.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-context.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-atomic.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-stdint.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-macros.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-config.h"
+- "/usr/local/Cellar/mongo-c-driver/1.6.2/include/libbson-1.0/bson-compat.h"
+- "/usr/local/include/libmongoc-1.0/mongoc.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-mongo-c.git-4363366770464592526/module.modulemap"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectLogger.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectCURL.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/SwiftMoment.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectHTTPServer.swiftmodule"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CHTTPParser/include/module.modulemap"
+interface-hash: "3757acaaf7198a5dc30be08964ebfc10"

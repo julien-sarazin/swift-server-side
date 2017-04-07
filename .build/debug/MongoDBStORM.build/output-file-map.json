@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/master.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/MongoDB-StORM.git-1769883039421626426/Sources/Convenience.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/Convenience.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/Convenience.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/Convenience~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/Convenience.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/MongoDB-StORM.git-1769883039421626426/Sources/MongoDBStORM.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/MongoDBStORM.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/MongoDBStORM.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/MongoDBStORM~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/MongoDBStORM.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/MongoDB-StORM.git-1769883039421626426/Sources/parseRows.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/parseRows.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/parseRows.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/parseRows~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDBStORM.build/parseRows.swiftdeps"
+  }
+}

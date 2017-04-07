@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "2e321fb2ee9298e1972e1afe19452a6b"
+build_time: [544875126, 862711000]
+inputs:
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/MongoDB-StORM.git-1769883039421626426/Sources/Convenience.swift": [544872819, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/MongoDB-StORM.git-1769883039421626426/Sources/MongoDBStORM.swift": [544872819, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/MongoDB-StORM.git-1769883039421626426/Sources/parseRows.swift": [544872819, 0]

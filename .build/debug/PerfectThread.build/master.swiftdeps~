@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "43c4be90b5884e2fc83ffa9fc033722d"
+build_time: [542903203, 261282000]
+inputs:
+  "/Users/blackrain/workspaces/lab/swift-server-side/Packages/PerfectThread-2.0.9/Sources/Promise.swift": [542903186, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/Packages/PerfectThread-2.0.9/Sources/Threading.swift": [542903185, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/Packages/PerfectThread-2.0.9/Sources/ThreadQueue.swift": [542903185, 0]

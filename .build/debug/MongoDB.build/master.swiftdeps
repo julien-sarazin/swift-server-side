@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "7cc7a0b0d261905794f4c7a029f4b81d"
+build_time: [544875124, 151980000]
+inputs:
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/BSON.swift": [544872817, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoClient.swift": [544872817, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoCollection.swift": [544872817, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoConnectionPool.swift": [544872817, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoCursor.swift": [544872817, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoDatabase.swift": [544872817, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoGridFS.swift": [544872817, 0]

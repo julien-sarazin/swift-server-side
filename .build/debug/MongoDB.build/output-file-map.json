@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/master.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/BSON.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/BSON.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/BSON.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/BSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/BSON.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoClient.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoClient.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoClient.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoClient.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoCollection.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoCollection.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoCollection.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoCollection~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoCollection.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoConnectionPool.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoConnectionPool.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoConnectionPool.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoConnectionPool~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoConnectionPool.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoCursor.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoCursor.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoCursor.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoCursor~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoCursor.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoDatabase.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoDatabase.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoDatabase.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoDatabase~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoDatabase.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-MongoDB.git--8154448075697536604/Sources/MongoDB/MongoGridFS.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoGridFS.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoGridFS.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoGridFS~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/MongoDB.build/MongoGridFS.swiftdeps"
+  }
+}

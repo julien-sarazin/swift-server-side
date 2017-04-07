@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "67f2827a3c0ed87e0fbe52992e42c6cc"
+build_time: [544880372, 901276000]
+inputs:
+  "/Users/blackrain/workspaces/lab/swift-server-side/Sources/+HTTPRequest.swift": !dirty [544617708, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/Sources/+HTTPResponse.swift": !dirty [544616798, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/Sources/main.swift": !dirty [544617989, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/Sources/Repository.swift": !dirty [544876785, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/Sources/Result.swift": !dirty [544874961, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/Sources/User.swift": !dirty [544880368, 0]

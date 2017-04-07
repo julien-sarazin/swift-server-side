@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectCURL.build/master.swiftdeps"
+  },
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": {
+    "dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectCURL.build/cURL.d",
+    "object": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectCURL.build/cURL.swift.o",
+    "swiftmodule": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectCURL.build/cURL~partial.swiftmodule",
+    "swift-dependencies": "/Users/blackrain/workspaces/lab/swift-server-side/.build/debug/PerfectCURL.build/cURL.swiftdeps"
+  }
+}

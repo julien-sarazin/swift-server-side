@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "574d97930ed4713d22f57ef93b997e51"
+build_time: [544875124, 152031000]
+inputs:
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/SwiftRandom.git--6412955993590123727/Sources/SwiftRandom/Random.swift": [544872818, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/SwiftRandom.git--6412955993590123727/Sources/SwiftRandom/Randoms.swift": [544872818, 0]
+  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/SwiftRandom.git--6412955993590123727/Sources/SwiftRandom/URandom.swift": [544872818, 0]
