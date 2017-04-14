@@ -4,22 +4,27 @@ import PerfectHTTPServer
 import Foundation
 
 let api = HTTPServer()
+var db: [User] = [User]()
 var routes = Routes()
 
-var db: [User] = [User]()
+routes.add(method: .post, uri: "/users", handler: MiddlewareHandler.all([
+	BodyParser.parse,
+	QueryParser.parse,
+	Converter.body(fields: ["birthDate": Converter.toDate]),
+	Validator.body(
+		required: [
+			"password": [
+				StringRules.minLength(10)
+			]
+		],
+		optional: [
+			"password": [
+				StringRules.minLength(10)
+			]
+		]),
+	UserAction.create
+	]))
 
-routes.add(method: .post, uri: "/users") { request, response in
-	guard let name: String = request.body?["name"] as? String else {
-		return response
-			.status(.badRequest)
-			.completed()
-	}
-
-	let user = User(name: name)
-	db.append(user)
-
-	response.json(user)
-}
 
 routes.add(method: .get, uri: "/users") { request, response in
 	return response.json(db)
@@ -61,7 +66,7 @@ routes.add(method: .delete, uri: "/users/{id}") { request, response in
 routes.add(method: .put, uri: "/users/{id}") { request, response in
 	let identifier = request.urlVariables["id"]
 
-	guard let name = request.body?["name"] as? String else {
+	guard let name = request.body?["firstname"] as? String else {
 		return response
 			.status(.badRequest)
 			.completed()
@@ -69,7 +74,7 @@ routes.add(method: .put, uri: "/users/{id}") { request, response in
 
 	for var user in db {
 		if user.id == identifier {
-			user.name = name
+			user.firstname = name
 			return response
 				.status(.noContent)
 				.completed()
@@ -80,6 +85,8 @@ routes.add(method: .put, uri: "/users/{id}") { request, response in
 		.status(.notFound)
 		.completed()
 }
+
+
 api.addRoutes(routes)
 api.serverPort = 8080
 

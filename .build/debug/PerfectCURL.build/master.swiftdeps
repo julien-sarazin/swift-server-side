@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
-options: "fdd89bb3b89383569fe7e295c56282a0"
-build_time: [544875124, 152985000]
-inputs:
-  "/Users/blackrain/workspaces/lab/swift-server-side/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": [544872817, 0]
